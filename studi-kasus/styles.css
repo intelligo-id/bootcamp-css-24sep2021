@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Menu */
+
+nav {
+  background-color: red;
+  padding: 5px;
+  text-align: center;
+}
+
+.jumbotron {
+  font-size: 20px;
+  padding: 60px;
+  background-color: orange;
+  text-align: center;
+  color: white;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin: 0 10px 0 10px;
+}
+
+/* Main */
+
+main {
+  overflow: auto;
+  padding: 20px;
+  /* background-color: red; */
+}
+
+#content {
+  width: 70%;
+  float: left;
+  /* background-color: aqua; */
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+.project-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+aside {
+  width: 30%;
+  float: right;
+  padding-left: 10px;
+  /* background-color: blue; */
+}
+
+/* Footer */
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: red;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+      width: 100%;
+      padding: 0;
+  }
+}
+
+
+
+@font-face {
+  font-family: "Dicoding Font";
+  src: url('FILE-FONT.TTF');
+}
+
+p {
+  font-family: "Dicoding Font";
+}
